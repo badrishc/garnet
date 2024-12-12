@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734038718417,
+  "lastUpdate": 1734038721040,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -3604,6 +3604,54 @@ window.BENCHMARK_DATA = {
             "value": 32081.810126671426,
             "unit": "ns",
             "range": "± 264.1466676532572"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9a0a632a932139e15ebcb9b0041597e70479576b",
+          "message": "Update sidebars.js",
+          "timestamp": "2024-12-12T13:22:18-08:00",
+          "tree_id": "868c25f487e6914fe1fb21716b5f37b644e007b4",
+          "url": "https://github.com/badrishc/garnet/commit/9a0a632a932139e15ebcb9b0041597e70479576b"
+        },
+        "date": 1734038719153,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 35824.79160054525,
+            "unit": "ns",
+            "range": "± 92.57434539387235"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 37887.30677897135,
+            "unit": "ns",
+            "range": "± 312.39253445302455"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 31965.222912597656,
+            "unit": "ns",
+            "range": "± 217.8692354206681"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 32100.97830810547,
+            "unit": "ns",
+            "range": "± 334.95008741426057"
           }
         ]
       }
