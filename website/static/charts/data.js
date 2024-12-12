@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734039411199,
+  "lastUpdate": 1734039415831,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -6168,6 +6168,54 @@ window.BENCHMARK_DATA = {
             "value": 30050.769449869793,
             "unit": "ns",
             "range": "± 43.56700863558778"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c84d756e3fe6dd7944113982b151fb3c5faa39fb",
+          "message": "Update sidebars.js",
+          "timestamp": "2024-12-12T13:31:52-08:00",
+          "tree_id": "cd72fea588014e588d49d86b1d161bdac5c3b140",
+          "url": "https://github.com/badrishc/garnet/commit/c84d756e3fe6dd7944113982b151fb3c5faa39fb"
+        },
+        "date": 1734039404494,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 36834.576416015625,
+            "unit": "ns",
+            "range": "± 56.63629928938529"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 37102.90751139323,
+            "unit": "ns",
+            "range": "± 59.25377767036429"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 31448.45973423549,
+            "unit": "ns",
+            "range": "± 51.09320280075173"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 30912.324641301082,
+            "unit": "ns",
+            "range": "± 37.906068439808024"
           }
         ]
       }
