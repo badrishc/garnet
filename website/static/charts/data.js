@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734039426468,
+  "lastUpdate": 1734039479525,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -7024,6 +7024,102 @@ window.BENCHMARK_DATA = {
             "value": 162672.66243489584,
             "unit": "ns",
             "range": "± 1822.7814816796397"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c84d756e3fe6dd7944113982b151fb3c5faa39fb",
+          "message": "Update sidebars.js",
+          "timestamp": "2024-12-12T13:31:52-08:00",
+          "tree_id": "cd72fea588014e588d49d86b1d161bdac5c3b140",
+          "url": "https://github.com/badrishc/garnet/commit/c84d756e3fe6dd7944113982b151fb3c5faa39fb"
+        },
+        "date": 1734039478158,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: ACL)",
+            "value": 145966.474226888,
+            "unit": "ns",
+            "range": "± 1525.5461437545298"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 134926.70284598213,
+            "unit": "ns",
+            "range": "± 357.6149558895258"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: ACL)",
+            "value": 131686.13683143028,
+            "unit": "ns",
+            "range": "± 1073.0170356926137"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.HSetDel(Params: ACL)",
+            "value": 155549.89036458332,
+            "unit": "ns",
+            "range": "± 1485.0425431313502"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: AOF)",
+            "value": 168539.16512357272,
+            "unit": "ns",
+            "range": "± 829.0717292179007"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 151246.69224446613,
+            "unit": "ns",
+            "range": "± 1132.9203326669433"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: AOF)",
+            "value": 144315.49096679688,
+            "unit": "ns",
+            "range": "± 571.7522499834839"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.HSetDel(Params: AOF)",
+            "value": 170288.80883789062,
+            "unit": "ns",
+            "range": "± 1139.6442276717455"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: None)",
+            "value": 148657.48091008113,
+            "unit": "ns",
+            "range": "± 463.407080748007"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 135966.37053034856,
+            "unit": "ns",
+            "range": "± 328.1779707780098"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: None)",
+            "value": 128346.84612165179,
+            "unit": "ns",
+            "range": "± 1008.9756891977968"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.HSetDel(Params: None)",
+            "value": 158845.06959751673,
+            "unit": "ns",
+            "range": "± 1003.6760099401677"
           }
         ]
       }
