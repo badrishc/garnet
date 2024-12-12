@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734038721040,
+  "lastUpdate": 1734038727750,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -3324,6 +3324,48 @@ window.BENCHMARK_DATA = {
             "value": 1711.8606296266828,
             "unit": "ns",
             "range": "± 9.532978403952976"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9a0a632a932139e15ebcb9b0041597e70479576b",
+          "message": "Update sidebars.js",
+          "timestamp": "2024-12-12T13:22:18-08:00",
+          "tree_id": "868c25f487e6914fe1fb21716b5f37b644e007b4",
+          "url": "https://github.com/badrishc/garnet/commit/9a0a632a932139e15ebcb9b0041597e70479576b"
+        },
+        "date": 1734038725573,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
+            "value": 1740.8723569234212,
+            "unit": "ns",
+            "range": "± 10.684543351625576"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
+            "value": 1705.9473340170723,
+            "unit": "ns",
+            "range": "± 5.360453033200204"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
+            "value": 1716.0025685174126,
+            "unit": "ns",
+            "range": "± 11.715694952023558"
           }
         ]
       }
