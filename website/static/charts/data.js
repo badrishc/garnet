@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734038867494,
+  "lastUpdate": 1734038901996,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -6376,6 +6376,102 @@ window.BENCHMARK_DATA = {
             "value": 153095.4220377604,
             "unit": "ns",
             "range": "± 1524.4259064579346"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "96085550+vazois@users.noreply.github.com",
+            "name": "Vasileios Zois",
+            "username": "vazois"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d4c7448569063ea786802a0580acf465108e037",
+          "message": "Add ReadOnly Support for IDevice (#870)\n\n* add readOnly flag in streamProvider for LocalStorageDevice\r\n\r\n* add linux readOnly flag for managed device\r\n\r\n* add explicit readOnly assignment for parameter",
+          "timestamp": "2024-12-12T13:03:41-08:00",
+          "tree_id": "3d591691e9ac0cfb714d98096a0580abab554b23",
+          "url": "https://github.com/badrishc/garnet/commit/0d4c7448569063ea786802a0580acf465108e037"
+        },
+        "date": 1734038900476,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: ACL)",
+            "value": 145104.91485595703,
+            "unit": "ns",
+            "range": "± 332.3753398234397"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 138674.66524251303,
+            "unit": "ns",
+            "range": "± 307.7013974901387"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: ACL)",
+            "value": 130356.82602945964,
+            "unit": "ns",
+            "range": "± 732.9229554902627"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.HSetDel(Params: ACL)",
+            "value": 153632.73053850446,
+            "unit": "ns",
+            "range": "± 1336.4523094515962"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: AOF)",
+            "value": 162001.44869290866,
+            "unit": "ns",
+            "range": "± 675.6696867669662"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 150923.57029215494,
+            "unit": "ns",
+            "range": "± 374.3757588358214"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: AOF)",
+            "value": 142504.58307291666,
+            "unit": "ns",
+            "range": "± 1386.688788743164"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.HSetDel(Params: AOF)",
+            "value": 166436.7203838642,
+            "unit": "ns",
+            "range": "± 905.909711323419"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: None)",
+            "value": 149759.9451171875,
+            "unit": "ns",
+            "range": "± 1243.0381846137236"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 141919.56346028644,
+            "unit": "ns",
+            "range": "± 1005.2198791648406"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: None)",
+            "value": 130576.79270717075,
+            "unit": "ns",
+            "range": "± 1287.8762078453774"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.HSetDel(Params: None)",
+            "value": 160411.66083635602,
+            "unit": "ns",
+            "range": "± 1279.7384665562747"
           }
         ]
       }
