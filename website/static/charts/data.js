@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734038745485,
+  "lastUpdate": 1734038751055,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -4112,6 +4112,54 @@ window.BENCHMARK_DATA = {
             "value": 2906.741059366862,
             "unit": "ns",
             "range": "± 26.49160948820148"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b27f46136e16f853548b0ebba6ae1799388ea4b1",
+          "message": "Update sidebars.js",
+          "timestamp": "2024-12-12T13:22:34-08:00",
+          "tree_id": "0944bbab6631f717ff7cb3c3d8c43f4d300ffb7c",
+          "url": "https://github.com/badrishc/garnet/commit/b27f46136e16f853548b0ebba6ae1799388ea4b1"
+        },
+        "date": 1734038749075,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script1(Params: None)",
+            "value": 206.5783791712352,
+            "unit": "ns",
+            "range": "± 0.8443218530611045"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script2(Params: None)",
+            "value": 348.86160159111023,
+            "unit": "ns",
+            "range": "± 2.057828660731899"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script3(Params: None)",
+            "value": 687.5129178592136,
+            "unit": "ns",
+            "range": "± 3.114837547576203"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script4(Params: None)",
+            "value": 2994.9679524557932,
+            "unit": "ns",
+            "range": "± 22.19433433433952"
           }
         ]
       }
