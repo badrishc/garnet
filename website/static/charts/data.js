@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734038714085,
+  "lastUpdate": 1734038718417,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -3282,6 +3282,48 @@ window.BENCHMARK_DATA = {
             "value": 1618.0809328715006,
             "unit": "ns",
             "range": "± 9.981738651453574"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "96085550+vazois@users.noreply.github.com",
+            "name": "Vasileios Zois",
+            "username": "vazois"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d4c7448569063ea786802a0580acf465108e037",
+          "message": "Add ReadOnly Support for IDevice (#870)\n\n* add readOnly flag in streamProvider for LocalStorageDevice\r\n\r\n* add linux readOnly flag for managed device\r\n\r\n* add explicit readOnly assignment for parameter",
+          "timestamp": "2024-12-12T13:03:41-08:00",
+          "tree_id": "3d591691e9ac0cfb714d98096a0580abab554b23",
+          "url": "https://github.com/badrishc/garnet/commit/0d4c7448569063ea786802a0580acf465108e037"
+        },
+        "date": 1734038716265,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
+            "value": 1715.0949990590414,
+            "unit": "ns",
+            "range": "± 9.955488957548905"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
+            "value": 1736.7737998962402,
+            "unit": "ns",
+            "range": "± 9.713876469884148"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
+            "value": 1711.8606296266828,
+            "unit": "ns",
+            "range": "± 9.532978403952976"
           }
         ]
       }
