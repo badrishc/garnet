@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734644574989,
+  "lastUpdate": 1734644580753,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -4364,6 +4364,54 @@ window.BENCHMARK_DATA = {
             "value": 31921.164628092447,
             "unit": "ns",
             "range": "± 207.04079728206997"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ca18b69397d718ae0f25f83a13a59d35a07d33b",
+          "message": "Update ci-bdnbenchmark.yml",
+          "timestamp": "2024-12-19T13:39:55-08:00",
+          "tree_id": "cf7eca9254045fd190bd285d25361eef3c5485d7",
+          "url": "https://github.com/badrishc/garnet/commit/2ca18b69397d718ae0f25f83a13a59d35a07d33b"
+        },
+        "date": 1734644579024,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 38070.244345528736,
+            "unit": "ns",
+            "range": "± 217.62363723678249"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 37494.50183105469,
+            "unit": "ns",
+            "range": "± 146.31609183586806"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 31918.23051961263,
+            "unit": "ns",
+            "range": "± 68.93076347571743"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 31330.68278151292,
+            "unit": "ns",
+            "range": "± 12.905570838446398"
           }
         ]
       }
