@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734577564376,
+  "lastUpdate": 1734578300981,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -4098,6 +4098,52 @@ window.BENCHMARK_DATA = {
             "value": 31483.851837158203,
             "unit": "ns",
             "range": "± 24.230741715429843"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Badrish Chandramouli",
+            "username": "badrishc",
+            "email": "badrish@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "c80f17eccb7f5dedea83b10a0b3443783d184f5c",
+          "message": "Update ci-bdnbenchmark.yml",
+          "timestamp": "2024-12-19T02:49:02Z",
+          "url": "https://github.com/badrishc/garnet/commit/c80f17eccb7f5dedea83b10a0b3443783d184f5c"
+        },
+        "date": 1734578298936,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 37984.068036760604,
+            "unit": "ns",
+            "range": "± 243.6057288265248"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 37859.84016535832,
+            "unit": "ns",
+            "range": "± 143.21821390600843"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 32545.673124186196,
+            "unit": "ns",
+            "range": "± 195.7809204572471"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 31842.710350623496,
+            "unit": "ns",
+            "range": "± 29.85826574540449"
           }
         ]
       }
