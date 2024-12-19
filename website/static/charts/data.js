@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734578300981,
+  "lastUpdate": 1734578305891,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -4710,6 +4710,52 @@ window.BENCHMARK_DATA = {
             "value": 641.7944542566935,
             "unit": "ns",
             "range": "± 0.5378999534007922"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Badrish Chandramouli",
+            "username": "badrishc",
+            "email": "badrish@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "c80f17eccb7f5dedea83b10a0b3443783d184f5c",
+          "message": "Update ci-bdnbenchmark.yml",
+          "timestamp": "2024-12-19T02:49:02Z",
+          "url": "https://github.com/badrishc/garnet/commit/c80f17eccb7f5dedea83b10a0b3443783d184f5c"
+        },
+        "date": 1734578304317,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script1(Params: None)",
+            "value": 247.73422222871048,
+            "unit": "ns",
+            "range": "± 0.31614033299236544"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script2(Params: None)",
+            "value": 467.12992259434293,
+            "unit": "ns",
+            "range": "± 1.030973612413737"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script3(Params: None)",
+            "value": 686.9906936009725,
+            "unit": "ns",
+            "range": "± 3.7599283324335784"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script4(Params: None)",
+            "value": 617.1855974878583,
+            "unit": "ns",
+            "range": "± 2.0290062615604176"
           }
         ]
       }
