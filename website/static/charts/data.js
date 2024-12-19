@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734644271601,
+  "lastUpdate": 1734644273027,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -4316,6 +4316,54 @@ window.BENCHMARK_DATA = {
             "value": 32432.771770770734,
             "unit": "ns",
             "range": "± 90.89131011315985"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "305657623e4670fbd9481ccefc0f80727fe9a1cf",
+          "message": "Update ci-bdnbenchmark.yml",
+          "timestamp": "2024-12-19T13:34:39-08:00",
+          "tree_id": "bcf36e636c531319eab827b4cb4a5b9d70d727ce",
+          "url": "https://github.com/badrishc/garnet/commit/305657623e4670fbd9481ccefc0f80727fe9a1cf"
+        },
+        "date": 1734644270786,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 38339.069240025114,
+            "unit": "ns",
+            "range": "± 110.01485757187126"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 39034.79294996995,
+            "unit": "ns",
+            "range": "± 72.08436175243958"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 32067.805078125,
+            "unit": "ns",
+            "range": "± 233.49387003917496"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 31921.164628092447,
+            "unit": "ns",
+            "range": "± 207.04079728206997"
           }
         ]
       }
