@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734576873224,
+  "lastUpdate": 1734576876524,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -3492,6 +3492,46 @@ window.BENCHMARK_DATA = {
             "value": 1714.772779056004,
             "unit": "ns",
             "range": "± 11.451583631024189"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Badrish Chandramouli",
+            "username": "badrishc",
+            "email": "badrishc@microsoft.com"
+          },
+          "committer": {
+            "name": "Badrish Chandramouli",
+            "username": "badrishc",
+            "email": "badrishc@microsoft.com"
+          },
+          "id": "da0b5c4a488545834cc090e427e7556fdbc71158",
+          "message": "merge from main",
+          "timestamp": "2024-12-19T02:27:44Z",
+          "url": "https://github.com/badrishc/garnet/commit/da0b5c4a488545834cc090e427e7556fdbc71158"
+        },
+        "date": 1734576875195,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
+            "value": 1751.55822290693,
+            "unit": "ns",
+            "range": "± 8.305411440144075"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
+            "value": 1720.9516512552898,
+            "unit": "ns",
+            "range": "± 8.354197805424647"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
+            "value": 1773.4139564220723,
+            "unit": "ns",
+            "range": "± 5.3246627510061835"
           }
         ]
       }
