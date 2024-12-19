@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734644666059,
+  "lastUpdate": 1734644698007,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -8056,6 +8056,54 @@ window.BENCHMARK_DATA = {
             "value": 30228.072102864582,
             "unit": "ns",
             "range": "± 21.411804054778575"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ca18b69397d718ae0f25f83a13a59d35a07d33b",
+          "message": "Update ci-bdnbenchmark.yml",
+          "timestamp": "2024-12-19T13:39:55-08:00",
+          "tree_id": "cf7eca9254045fd190bd285d25361eef3c5485d7",
+          "url": "https://github.com/badrishc/garnet/commit/2ca18b69397d718ae0f25f83a13a59d35a07d33b"
+        },
+        "date": 1734644678615,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 36426.3663155692,
+            "unit": "ns",
+            "range": "± 234.63054259022147"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 36778.338623046875,
+            "unit": "ns",
+            "range": "± 45.85226578922254"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 31740.104370117188,
+            "unit": "ns",
+            "range": "± 33.46127302881356"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 30063.424682617188,
+            "unit": "ns",
+            "range": "± 26.244237426679973"
           }
         ]
       }
