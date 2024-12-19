@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734644645542,
+  "lastUpdate": 1734644666059,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -9222,6 +9222,84 @@ window.BENCHMARK_DATA = {
             "value": 132095.20750209264,
             "unit": "ns",
             "range": "± 942.1517832106081"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ca18b69397d718ae0f25f83a13a59d35a07d33b",
+          "message": "Update ci-bdnbenchmark.yml",
+          "timestamp": "2024-12-19T13:39:55-08:00",
+          "tree_id": "cf7eca9254045fd190bd285d25361eef3c5485d7",
+          "url": "https://github.com/badrishc/garnet/commit/2ca18b69397d718ae0f25f83a13a59d35a07d33b"
+        },
+        "date": 1734644664384,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: ACL)",
+            "value": 145712.9306640625,
+            "unit": "ns",
+            "range": "± 357.33264900064967"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 135746.23167067306,
+            "unit": "ns",
+            "range": "± 340.97944006533544"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: ACL)",
+            "value": 136561.0436279297,
+            "unit": "ns",
+            "range": "± 439.07966339040877"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: AOF)",
+            "value": 170513.96663992744,
+            "unit": "ns",
+            "range": "± 1068.2308515885086"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 156583.65859375,
+            "unit": "ns",
+            "range": "± 627.003878945313"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: AOF)",
+            "value": 153333.42930385045,
+            "unit": "ns",
+            "range": "± 1274.3808631428603"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: None)",
+            "value": 153162.20584542412,
+            "unit": "ns",
+            "range": "± 1101.6533895703265"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 137642.9804861886,
+            "unit": "ns",
+            "range": "± 705.3014418623626"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: None)",
+            "value": 136380.41117976262,
+            "unit": "ns",
+            "range": "± 365.1465530189956"
           }
         ]
       }
