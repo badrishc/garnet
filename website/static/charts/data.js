@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734233497370,
+  "lastUpdate": 1734576722077,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -3964,6 +3964,54 @@ window.BENCHMARK_DATA = {
             "value": 32132.340510050457,
             "unit": "ns",
             "range": "± 19.15190274350887"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c80f17eccb7f5dedea83b10a0b3443783d184f5c",
+          "message": "Update ci-bdnbenchmark.yml",
+          "timestamp": "2024-12-18T18:49:02-08:00",
+          "tree_id": "44e9ec43a906a420fc56978d04e38514cc557d22",
+          "url": "https://github.com/badrishc/garnet/commit/c80f17eccb7f5dedea83b10a0b3443783d184f5c"
+        },
+        "date": 1734576720464,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 37538.394967215405,
+            "unit": "ns",
+            "range": "± 311.5330829981669"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 39022.58304268973,
+            "unit": "ns",
+            "range": "± 65.97408032273513"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 32614.82565542368,
+            "unit": "ns",
+            "range": "± 28.829738586803156"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 32023.270579020184,
+            "unit": "ns",
+            "range": "± 36.54617287967259"
           }
         ]
       }
