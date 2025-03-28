@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743130998421,
+  "lastUpdate": 1743131028773,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -29108,6 +29108,174 @@ window.BENCHMARK_DATA = {
             "value": 104959.50223482572,
             "unit": "ns",
             "range": "± 90.12403546491798"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f502ed8a9b29618825bac2870df2a487aae20e75",
+          "message": "Update README.md",
+          "timestamp": "2025-03-27T19:23:26-07:00",
+          "tree_id": "b6003015e3a89d230b397ce08e94bb63ad44c485",
+          "url": "https://github.com/badrishc/garnet/commit/f502ed8a9b29618825bac2870df2a487aae20e75"
+        },
+        "date": 1743131009147,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: ACL)",
+            "value": 69980.79935709636,
+            "unit": "ns",
+            "range": "± 39.174278014572764"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: ACL)",
+            "value": 232679.296875,
+            "unit": "ns",
+            "range": "± 522.2802851498693"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: ACL)",
+            "value": 148157.8115609976,
+            "unit": "ns",
+            "range": "± 432.4747225709411"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: ACL)",
+            "value": 126216.65320763222,
+            "unit": "ns",
+            "range": "± 83.55368164231147"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: ACL)",
+            "value": 47859.454752604164,
+            "unit": "ns",
+            "range": "± 48.071944692573126"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: ACL)",
+            "value": 171158.05867513022,
+            "unit": "ns",
+            "range": "± 229.90977784541147"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: ACL)",
+            "value": 126684.42057291667,
+            "unit": "ns",
+            "range": "± 172.17977671815962"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: ACL)",
+            "value": 103283.73372395833,
+            "unit": "ns",
+            "range": "± 312.2172760256678"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: AOF)",
+            "value": 70246.59249441964,
+            "unit": "ns",
+            "range": "± 62.01030775476576"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: AOF)",
+            "value": 242889.5068359375,
+            "unit": "ns",
+            "range": "± 1819.348606596424"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: AOF)",
+            "value": 156270.5753580729,
+            "unit": "ns",
+            "range": "± 389.0722199665005"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: AOF)",
+            "value": 152992.80029296875,
+            "unit": "ns",
+            "range": "± 383.55648577869647"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: AOF)",
+            "value": 49318.88689313616,
+            "unit": "ns",
+            "range": "± 65.24632099263974"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: AOF)",
+            "value": 178861.71351841517,
+            "unit": "ns",
+            "range": "± 449.50407459533704"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: AOF)",
+            "value": 136718.7109375,
+            "unit": "ns",
+            "range": "± 448.16473367266036"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: AOF)",
+            "value": 127702.9296875,
+            "unit": "ns",
+            "range": "± 367.09518745662956"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: None)",
+            "value": 69724.72208658855,
+            "unit": "ns",
+            "range": "± 59.343955067148954"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: None)",
+            "value": 234040.16764322916,
+            "unit": "ns",
+            "range": "± 786.7630916414023"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: None)",
+            "value": 144991.20768229166,
+            "unit": "ns",
+            "range": "± 282.75239359427263"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: None)",
+            "value": 127837.85749162946,
+            "unit": "ns",
+            "range": "± 98.9944842153332"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: None)",
+            "value": 48867.305908203125,
+            "unit": "ns",
+            "range": "± 42.04603119384346"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: None)",
+            "value": 169663.64571707588,
+            "unit": "ns",
+            "range": "± 219.54400337788806"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: None)",
+            "value": 129563.525390625,
+            "unit": "ns",
+            "range": "± 383.68436699700277"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: None)",
+            "value": 104346.58284505208,
+            "unit": "ns",
+            "range": "± 289.5888788285925"
           }
         ]
       }
