@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743142860191,
+  "lastUpdate": 1743142888880,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -4040,6 +4040,66 @@ window.BENCHMARK_DATA = {
             "value": 1680.281482187907,
             "unit": "ns",
             "range": "± 6.960349147337516"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1f3801fe6c365b14a3d60dbd3b38c23257b57caa",
+          "message": "Update sidebars.js",
+          "timestamp": "2025-03-27T22:23:14-07:00",
+          "tree_id": "0cc5a8fcf7bdaf124b589a8fcb46553726dfa6ab",
+          "url": "https://github.com/badrishc/garnet/commit/1f3801fe6c365b14a3d60dbd3b38c23257b57caa"
+        },
+        "date": 1743142885471,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
+            "value": 1806.1980040413994,
+            "unit": "ns",
+            "range": "± 4.511369140075699"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
+            "value": 1846.6635920206706,
+            "unit": "ns",
+            "range": "± 9.625756674658929"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
+            "value": 1848.0709759848457,
+            "unit": "ns",
+            "range": "± 8.665291799190024"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
+            "value": 1721.113567352295,
+            "unit": "ns",
+            "range": "± 10.201670451766109"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
+            "value": 1781.8705637613932,
+            "unit": "ns",
+            "range": "± 7.397280440877481"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
+            "value": 1678.0694113511306,
+            "unit": "ns",
+            "range": "± 4.245060878665579"
           }
         ]
       }
