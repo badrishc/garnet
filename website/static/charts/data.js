@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743126809728,
+  "lastUpdate": 1743126816622,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -22708,6 +22708,68 @@ window.BENCHMARK_DATA = {
             "value": 18668.92595563616,
             "unit": "ns",
             "range": "± 72.24890583702503"
+          }
+        ]
+      }
+    ],
+    "Operations.PubSubOperations (ubuntu-latest  net8.0 Release)": [
+      {
+        "commit": {
+          "author": {
+            "email": "52283326+prvyk@users.noreply.github.com",
+            "name": "prvyk",
+            "username": "prvyk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5e53f12c7cb5b547ca74258d3125eeab6056f7d9",
+          "message": "Implement GEOSEARCH BYRADIUS. (#1129)\n\nImplement also ASC, DESC orderings, ANY, WITHHASH and FROMLONLAT.\nImplement GEORADIUS_RO and GEORADIUSBYMEMBER_RO.\nImplement GEORADIUS and GEORADIUSBYMEMBER.\nFix GEOSEARCHSTORE without STOREDIST and other bugs.\nAdd tests.\n\nCo-authored-by: prvyk <github@privatemail.fastmailbox.net>\nCo-authored-by: Tal Zaccai <talzacc@microsoft.com>",
+          "timestamp": "2025-03-27T15:18:31-07:00",
+          "tree_id": "50d3100bf6a89b69510d3902ea49df32a782dd6d",
+          "url": "https://github.com/badrishc/garnet/commit/5e53f12c7cb5b547ca74258d3125eeab6056f7d9"
+        },
+        "date": 1743126815064,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: ACL)",
+            "value": 20150.640216533953,
+            "unit": "ns",
+            "range": "± 17.634900456676043"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: ACL)",
+            "value": 18786.30990365835,
+            "unit": "ns",
+            "range": "± 12.703226295609394"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AOF)",
+            "value": 20194.108612060547,
+            "unit": "ns",
+            "range": "± 66.33764914648589"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AOF)",
+            "value": 18866.653928484237,
+            "unit": "ns",
+            "range": "± 103.64886577944456"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: None)",
+            "value": 19548.405436197918,
+            "unit": "ns",
+            "range": "± 31.3669220702755"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: None)",
+            "value": 18861.336679077147,
+            "unit": "ns",
+            "range": "± 98.28348065843673"
           }
         ]
       }
