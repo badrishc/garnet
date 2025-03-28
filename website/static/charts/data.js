@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743130732765,
+  "lastUpdate": 1743130761733,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -4808,6 +4808,78 @@ window.BENCHMARK_DATA = {
             "value": 30757.663920084637,
             "unit": "ns",
             "range": "± 36.45722279941226"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f502ed8a9b29618825bac2870df2a487aae20e75",
+          "message": "Update README.md",
+          "timestamp": "2025-03-27T19:23:26-07:00",
+          "tree_id": "b6003015e3a89d230b397ce08e94bb63ad44c485",
+          "url": "https://github.com/badrishc/garnet/commit/f502ed8a9b29618825bac2870df2a487aae20e75"
+        },
+        "date": 1743130758563,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 36699.00669962565,
+            "unit": "ns",
+            "range": "± 138.58105172429973"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 39845.541224888395,
+            "unit": "ns",
+            "range": "± 214.6902030125659"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 32059.729773888223,
+            "unit": "ns",
+            "range": "± 82.44732125551062"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 32924.501334054126,
+            "unit": "ns",
+            "range": "± 176.0484297983708"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 36900.18662109375,
+            "unit": "ns",
+            "range": "± 208.43911173399908"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 36083.46698869978,
+            "unit": "ns",
+            "range": "± 334.3614074519367"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 30607.554117838543,
+            "unit": "ns",
+            "range": "± 20.772879721009897"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 29754.29581996373,
+            "unit": "ns",
+            "range": "± 194.96680023241225"
           }
         ]
       }
