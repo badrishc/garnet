@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743140082389,
+  "lastUpdate": 1743140144478,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -46464,6 +46464,66 @@ window.BENCHMARK_DATA = {
             "value": 16895.15609741211,
             "unit": "ns",
             "range": "± 10.6375143106377"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "386740c2c4641c1e7f592311b797e8c521ca5971",
+          "message": "Create papers.md",
+          "timestamp": "2025-03-27T22:19:50-07:00",
+          "tree_id": "852312d7bd78cbc3de27e025d48f42325975ffbf",
+          "url": "https://github.com/badrishc/garnet/commit/386740c2c4641c1e7f592311b797e8c521ca5971"
+        },
+        "date": 1743140126587,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: ACL)",
+            "value": 16866.796468098957,
+            "unit": "ns",
+            "range": "± 9.946892749427896"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: ACL)",
+            "value": 16767.131746732273,
+            "unit": "ns",
+            "range": "± 16.64574513340535"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AOF)",
+            "value": 16947.594275841348,
+            "unit": "ns",
+            "range": "± 16.34600627145572"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AOF)",
+            "value": 16785.91853550502,
+            "unit": "ns",
+            "range": "± 16.19772936132742"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: None)",
+            "value": 17220.21985735212,
+            "unit": "ns",
+            "range": "± 47.38364552312784"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: None)",
+            "value": 17087.051861102766,
+            "unit": "ns",
+            "range": "± 14.283296422537267"
           }
         ]
       }
