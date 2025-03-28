@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743142577886,
+  "lastUpdate": 1743142663876,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -14676,6 +14676,66 @@ window.BENCHMARK_DATA = {
             "value": 95192.5883219401,
             "unit": "ns",
             "range": "± 359.50900787865487"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1f3801fe6c365b14a3d60dbd3b38c23257b57caa",
+          "message": "Update sidebars.js",
+          "timestamp": "2025-03-27T22:23:14-07:00",
+          "tree_id": "0cc5a8fcf7bdaf124b589a8fcb46553726dfa6ab",
+          "url": "https://github.com/badrishc/garnet/commit/1f3801fe6c365b14a3d60dbd3b38c23257b57caa"
+        },
+        "date": 1743142660548,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 133162.06271972656,
+            "unit": "ns",
+            "range": "± 893.4668537279572"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 98767.77427164714,
+            "unit": "ns",
+            "range": "± 946.3028361335142"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 157297.53885323662,
+            "unit": "ns",
+            "range": "± 814.3182814297442"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 115801.11931501116,
+            "unit": "ns",
+            "range": "± 521.1474011179419"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 134001.74376627605,
+            "unit": "ns",
+            "range": "± 720.2563563112864"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 98140.57115885416,
+            "unit": "ns",
+            "range": "± 545.8635858055628"
           }
         ]
       }
