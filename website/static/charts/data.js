@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743141052869,
+  "lastUpdate": 1743141057118,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -39390,6 +39390,42 @@ window.BENCHMARK_DATA = {
             "value": 87.61066633462906,
             "unit": "ns",
             "range": "± 0.28460259870301535"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0941ebdce88b844739e1fa523b625ab66b1c032b",
+          "message": "Update papers.md",
+          "timestamp": "2025-03-27T22:23:05-07:00",
+          "tree_id": "7dac66f7da6aaf6c008d68df16c06172e0961ece",
+          "url": "https://github.com/badrishc/garnet/commit/0941ebdce88b844739e1fa523b625ab66b1c032b"
+        },
+        "date": 1743141054570,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
+            "value": 93.10861290876682,
+            "unit": "ns",
+            "range": "± 0.13883680000502907"
+          },
+          {
+            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
+            "value": 87.82772877386638,
+            "unit": "ns",
+            "range": "± 0.35212448056887885"
           }
         ]
       }
