@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743139426470,
+  "lastUpdate": 1743139440583,
   "repoUrl": "https://github.com/badrishc/garnet",
   "entries": {
     "Benchmark": [
@@ -40610,6 +40610,390 @@ window.BENCHMARK_DATA = {
             "value": 8778.72340425532,
             "unit": "ns",
             "range": "± 669.5780954436636"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrish@gmail.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "386740c2c4641c1e7f592311b797e8c521ca5971",
+          "message": "Create papers.md",
+          "timestamp": "2025-03-27T22:19:50-07:00",
+          "tree_id": "852312d7bd78cbc3de27e025d48f42325975ffbf",
+          "url": "https://github.com/badrishc/garnet/commit/386740c2c4641c1e7f592311b797e8c521ca5971"
+        },
+        "date": 1743139437681,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupHit(Params: Managed,Limit)",
+            "value": 1090.4948453608247,
+            "unit": "ns",
+            "range": "± 484.6315852383672"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupMiss(Params: Managed,Limit)",
+            "value": 920.3387096774194,
+            "unit": "ns",
+            "range": "± 303.18552543467433"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadOuterHit(Params: Managed,Limit)",
+            "value": 1750.0927835051546,
+            "unit": "ns",
+            "range": "± 344.1057578006307"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadInnerHit(Params: Managed,Limit)",
+            "value": 451774.81,
+            "unit": "ns",
+            "range": "± 74836.88547426857"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadMiss(Params: Managed,Limit)",
+            "value": 1831.118556701031,
+            "unit": "ns",
+            "range": "± 422.3087200955345"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.Digest(Params: Managed,Limit)",
+            "value": 7559.285714285715,
+            "unit": "ns",
+            "range": "± 62.29264504236135"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupHit(Params: Managed,Limit)",
+            "value": 1402.378947368421,
+            "unit": "ns",
+            "range": "± 415.62232700013584"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupMiss(Params: Managed,Limit)",
+            "value": 928.0515463917526,
+            "unit": "ns",
+            "range": "± 306.70616948249574"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadOuterHit(Params: Managed,Limit)",
+            "value": 1671.6875,
+            "unit": "ns",
+            "range": "± 472.18353506816993"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadInnerHit(Params: Managed,Limit)",
+            "value": 477595.8695652174,
+            "unit": "ns",
+            "range": "± 11864.34015444581"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadMiss(Params: Managed,Limit)",
+            "value": 1693.276595744681,
+            "unit": "ns",
+            "range": "± 295.1180337677675"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.Digest(Params: Managed,Limit)",
+            "value": 8476.39010989011,
+            "unit": "ns",
+            "range": "± 544.7436594001387"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupHit(Params: Managed,None)",
+            "value": 1226.6354166666667,
+            "unit": "ns",
+            "range": "± 413.47162111721565"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupMiss(Params: Managed,None)",
+            "value": 800.5567010309278,
+            "unit": "ns",
+            "range": "± 478.4745284293304"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadOuterHit(Params: Managed,None)",
+            "value": 1753.5625,
+            "unit": "ns",
+            "range": "± 555.7260554303807"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadInnerHit(Params: Managed,None)",
+            "value": 464894.5,
+            "unit": "ns",
+            "range": "± 10489.815805417125"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadMiss(Params: Managed,None)",
+            "value": 1587.7333333333333,
+            "unit": "ns",
+            "range": "± 34.449687261003575"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.Digest(Params: Managed,None)",
+            "value": 7660.633333333333,
+            "unit": "ns",
+            "range": "± 71.68270031053186"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupHit(Params: Managed,None)",
+            "value": 877,
+            "unit": "ns",
+            "range": "± 29.16390463112464"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupMiss(Params: Managed,None)",
+            "value": 936.2551020408164,
+            "unit": "ns",
+            "range": "± 420.3966477846203"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadOuterHit(Params: Managed,None)",
+            "value": 1834.5833333333333,
+            "unit": "ns",
+            "range": "± 386.78558364977664"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadInnerHit(Params: Managed,None)",
+            "value": 485577.68,
+            "unit": "ns",
+            "range": "± 12891.002859617503"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadMiss(Params: Managed,None)",
+            "value": 1676.1052631578948,
+            "unit": "ns",
+            "range": "± 279.5532710504085"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.Digest(Params: Managed,None)",
+            "value": 8685.357142857143,
+            "unit": "ns",
+            "range": "± 123.60458489309129"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupHit(Params: Native,None)",
+            "value": 1091.2628865979382,
+            "unit": "ns",
+            "range": "± 386.82593989404853"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupMiss(Params: Native,None)",
+            "value": 873.8125,
+            "unit": "ns",
+            "range": "± 16.650200198996608"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadOuterHit(Params: Native,None)",
+            "value": 1633.1770833333333,
+            "unit": "ns",
+            "range": "± 484.8323637536818"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadInnerHit(Params: Native,None)",
+            "value": 450211.69,
+            "unit": "ns",
+            "range": "± 76230.78599190312"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadMiss(Params: Native,None)",
+            "value": 1773.6145833333333,
+            "unit": "ns",
+            "range": "± 360.6331966443604"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.Digest(Params: Native,None)",
+            "value": 7842.142857142857,
+            "unit": "ns",
+            "range": "± 109.62022352920745"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupHit(Params: Native,None)",
+            "value": 1259.5721649484535,
+            "unit": "ns",
+            "range": "± 425.2579424944808"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupMiss(Params: Native,None)",
+            "value": 849.7319587628866,
+            "unit": "ns",
+            "range": "± 344.4775487200363"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadOuterHit(Params: Native,None)",
+            "value": 1995.5,
+            "unit": "ns",
+            "range": "± 49.17705108016519"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadInnerHit(Params: Native,None)",
+            "value": 419474.9,
+            "unit": "ns",
+            "range": "± 12431.969174616734"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadMiss(Params: Native,None)",
+            "value": 1607.3526315789475,
+            "unit": "ns",
+            "range": "± 394.39018287653175"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.Digest(Params: Native,None)",
+            "value": 7453.473684210527,
+            "unit": "ns",
+            "range": "± 141.76755953204707"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupHit(Params: Tracked,Limit)",
+            "value": 1069.8709677419354,
+            "unit": "ns",
+            "range": "± 498.91077501951696"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupMiss(Params: Tracked,Limit)",
+            "value": 768.8295454545455,
+            "unit": "ns",
+            "range": "± 303.2305644373377"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadOuterHit(Params: Tracked,Limit)",
+            "value": 1652.0263157894738,
+            "unit": "ns",
+            "range": "± 587.1114077849074"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadInnerHit(Params: Tracked,Limit)",
+            "value": 475550.375,
+            "unit": "ns",
+            "range": "± 13890.390922644005"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadMiss(Params: Tracked,Limit)",
+            "value": 1587.6,
+            "unit": "ns",
+            "range": "± 35.298320478054315"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.Digest(Params: Tracked,Limit)",
+            "value": 7922.833333333333,
+            "unit": "ns",
+            "range": "± 88.02358499374765"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupHit(Params: Tracked,Limit)",
+            "value": 1278.25,
+            "unit": "ns",
+            "range": "± 500.60273145163933"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupMiss(Params: Tracked,Limit)",
+            "value": 932.510752688172,
+            "unit": "ns",
+            "range": "± 333.7835635174795"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadOuterHit(Params: Tracked,Limit)",
+            "value": 1716.125,
+            "unit": "ns",
+            "range": "± 520.4242045020378"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadInnerHit(Params: Tracked,Limit)",
+            "value": 473545.17647058825,
+            "unit": "ns",
+            "range": "± 9321.791527352012"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadMiss(Params: Tracked,Limit)",
+            "value": 1681.3854166666667,
+            "unit": "ns",
+            "range": "± 466.9381874969987"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.Digest(Params: Tracked,Limit)",
+            "value": 7827.357142857143,
+            "unit": "ns",
+            "range": "± 81.11018824637654"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupHit(Params: Tracked,None)",
+            "value": 1068.5208333333333,
+            "unit": "ns",
+            "range": "± 476.436685563651"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupMiss(Params: Tracked,None)",
+            "value": 887.0795454545455,
+            "unit": "ns",
+            "range": "± 256.47595041255016"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadOuterHit(Params: Tracked,None)",
+            "value": 1477.639175257732,
+            "unit": "ns",
+            "range": "± 599.2198780074914"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadInnerHit(Params: Tracked,None)",
+            "value": 464897.32,
+            "unit": "ns",
+            "range": "± 12312.412428521064"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadMiss(Params: Tracked,None)",
+            "value": 1581.2894736842106,
+            "unit": "ns",
+            "range": "± 38.628686731449875"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.Digest(Params: Tracked,None)",
+            "value": 7956.8,
+            "unit": "ns",
+            "range": "± 96.74945551710945"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupHit(Params: Tracked,None)",
+            "value": 1224.8333333333333,
+            "unit": "ns",
+            "range": "± 40.43961323801923"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LookupMiss(Params: Tracked,None)",
+            "value": 850.8,
+            "unit": "ns",
+            "range": "± 314.36422161210913"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadOuterHit(Params: Tracked,None)",
+            "value": 1591.2680412371135,
+            "unit": "ns",
+            "range": "± 500.6717886055677"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadInnerHit(Params: Tracked,None)",
+            "value": 492766.7916666667,
+            "unit": "ns",
+            "range": "± 12610.966276735935"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.LoadMiss(Params: Tracked,None)",
+            "value": 1651.3711340206185,
+            "unit": "ns",
+            "range": "± 392.12073819774224"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScriptCacheOperations.Digest(Params: Tracked,None)",
+            "value": 7621.461538461538,
+            "unit": "ns",
+            "range": "± 116.62090677676923"
           }
         ]
       }
